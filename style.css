@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    padding: 5px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    flex: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.player, .computer {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.move {
+    height: 50px;
+}
+
+.start-game-display {
+    width: 100px;
+    padding: 200px;
+    display: block;
+}
+
+.start-game-button {
+    color: wheat;
+    background-color: firebrick;
+    font-style: italic;
+}
